@@ -645,3 +645,4 @@ Caused by: java.lang.Exception: File not found: D:\CDAC2024\Web Based Java\sprin
 2024-08-28 23:59:22,533 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\CDAC2024\Web Based Java\springcodes\Bajaj-Assesment\APP_TESTING_PROJECT\src\test\resources
 2024-08-28 23:59:25,066 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\CDAC2024\Web Based Java\springcodes\Bajaj-Assesment\DestinationHashGenerator\src\main\resources
 2024-08-28 23:59:25,073 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\CDAC2024\Web Based Java\springcodes\Bajaj-Assesment\DestinationHashGenerator\src\test\resources
+2024-08-29 01:01:28,898 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
