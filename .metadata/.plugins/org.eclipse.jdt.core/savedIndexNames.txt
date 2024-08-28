@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+D:\CDAC2024\Web Based Java\springcodes\.metadata\.plugins\org.eclipse.jdt.core
+3613848284.index
+1865797976.index
+998924096.index

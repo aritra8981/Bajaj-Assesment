@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.tut.DestinationHashGenerator.App.java&apos; to &apos;DestinationHashGenerator.java&apos;&#x0D;&#x0A;- Original project: &apos;DestinationHashGenerator&apos;&#x0D;&#x0A;- Original element: &apos;com.tut.DestinationHashGenerator.App.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.tut.DestinationHashGenerator.DestinationHashGenerator.java&apos;" description="Rename compilation unit &apos;App.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.tut.DestinationHashGenerator{App.java" name="DestinationHashGenerator.java" references="false" stamp="1724868407618" version="1.0"/>
+</session>

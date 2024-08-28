@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.tut.APP_TESTING_PROJECT.AppTest&apos; to &apos;UserApiTests&apos;&#x0D;&#x0A;- Original project: &apos;APP_TESTING_PROJECT&apos;&#x0D;&#x0A;- Original element: &apos;com.tut.APP_TESTING_PROJECT.AppTest&apos;&#x0D;&#x0A;- Renamed element: &apos;com.tut.APP_TESTING_PROJECT.UserApiTests&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;AppTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.tut.APP_TESTING_PROJECT{AppTest.java[AppTest" matchStrategy="1" name="UserApiTests" qualified="false" references="true" similarDeclarations="false" stamp="1724867540772" textual="false" version="1.0"/>
+</session>
