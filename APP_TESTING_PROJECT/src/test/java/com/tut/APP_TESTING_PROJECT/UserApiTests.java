@@ -21,10 +21,10 @@ public class UserApiTests {
     @Test
     public void testCreateUserWithValidData() {
         String requestBody = "{\n" +
-                "    \"firstName\": \"Ashish\",\n" +
-                "    \"lastName\": \"Sharma\",\n" +
-                "    \"phoneNumber\": 1234567890,\n" +
-                "    \"emailId\": \"ashish.sharma@example.com\"\n" +
+                "    \"firstName\": \"Aritra\",\n" +
+                "    \"lastName\": \"Das\",\n" +
+                "    \"phoneNumber\": 5648245355,\n" +
+                "    \"emailId\": \"aritra.das@google.com\"\n" +
                 "}";
 
         RestAssured.given()
@@ -65,9 +65,9 @@ public class UserApiTests {
     @Test
     public void testCreateUserWithMissingRequiredField() {
         String requestBody = "{\n" +
-                "    \"lastName\": \"Sharma\",\n" +
+                "    \"lastName\": \"Das\",\n" +
                 "    \"phoneNumber\": 1234567890,\n" +
-                "    \"emailId\": \"ashish.sharma@example.com\"\n" +
+                "    \"emailId\": \"aritra.das@google.com\"\n" +
                 "}";
 
         RestAssured.given()
@@ -84,10 +84,10 @@ public class UserApiTests {
     @Test
     public void testCreateUserWithDuplicatePhoneNumber() {
         String requestBody = "{\n" +
-                "    \"firstName\": \"Ashish\",\n" +
-                "    \"lastName\": \"Sharma\",\n" +
-                "    \"phoneNumber\": 1234567890,\n" +
-                "    \"emailId\": \"ashish.sharma@example.com\"\n" +
+                "    \"firstName\": \"Aritra\",\n" +
+                "    \"lastName\": \"Das\",\n" +
+                "    \"phoneNumber\": 5648245355,\n" +
+                "    \"emailId\": \"aritra.das@google.com\"\n" +
                 "}";
 
         
@@ -115,17 +115,17 @@ public class UserApiTests {
     @Test
     public void testCreateUserWithDuplicateEmailId() {
         String requestBody1 = "{\n" +
-                "    \"firstName\": \"Ashish\",\n" +
-                "    \"lastName\": \"Sharma\",\n" +
+                "    \"firstName\": \"Aritra\",\n" +
+                "    \"lastName\": \"Das\",\n" +
                 "    \"phoneNumber\": 9876543210,\n" +
-                "    \"emailId\": \"ashish.sharma@example.com\"\n" +
+                "    \"emailId\": \"aritra.das@google.com\"\n" +
                 "}";
 
         String requestBody2 = "{\n" +
-                "    \"firstName\": \"Shivam\",\n" +
-                "    \"lastName\": \"Patil\",\n" +
+                "    \"firstName\": \"Dheeraj\",\n" +
+                "    \"lastName\": \"Ranjan\",\n" +
                 "    \"phoneNumber\": 1234567890,\n" +
-                "    \"emailId\": \"ashish.sharma@example.com\"\n" +
+                "    \"emailId\": \"aritra.das@google.com\"\n" +
                 "}";
 
    
@@ -153,10 +153,10 @@ public class UserApiTests {
     @Test
     public void testCreateUserWithInvalidPhoneNumber() {
         String requestBody = "{\n" +
-                "    \"firstName\": \"Ashish\",\n" +
-                "    \"lastName\": \"Sharma\",\n" +
+                "    \"firstName\": \"Aritra\",\n" +
+                "    \"lastName\": \"Das\",\n" +
                 "    \"phoneNumber\": \"invalidNumber\",\n" +
-                "    \"emailId\": \"ashish.sharma@example.com\"\n" +
+                "    \"emailId\": \"aritra.das@google.com\"\n" +
                 "}";
 
         RestAssured.given()
@@ -173,8 +173,8 @@ public class UserApiTests {
     @Test
     public void testCreateUserWithInvalidEmailId() {
         String requestBody = "{\n" +
-                "    \"firstName\": \"Ashish\",\n" +
-                "    \"lastName\": \"Sharma\",\n" +
+                "    \"firstName\": \"Aritra\",\n" +
+                "    \"lastName\": \"Das\",\n" +
                 "    \"phoneNumber\": 1234567890,\n" +
                 "    \"emailId\": \"invalidEmail\"\n" +
                 "}";
